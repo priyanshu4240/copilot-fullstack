@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.glass {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(10px);
+}
+
+.dark .glass-dark {
+  background: rgba(30, 41, 59, 0.6);
+  backdrop-filter: blur(8px);
+}
+
+@keyframes fade {
+  0% { opacity: 0; transform: translateY(-5px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade {
+  animation: fade 0.2s ease-out;
+}
+
