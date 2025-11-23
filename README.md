@@ -1,4 +1,3 @@
-Final Code Generator - CoPilot (Option B UI + Bottom history drawer)
 
 Steps to run:
 1) Backend
